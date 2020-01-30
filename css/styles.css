@@ -5,16 +5,30 @@
 .main{
 
 }
+.main p{
+  background-color: #99CCFF;
+  margin: 2%;
+  padding: 2%;
+}
+.main h1{
+  background-color: #AABBDD;
+  margin: 1%;
+  padding: 1%;
+}
 
 .footer{
-  background-color: #DDCCEC;
+  background-color: #AABBDD;
   position: fixed;
+  height: 5%;
   left: 0;
   bottom: 0;
   width: 100%;
   color: white;
   text-align: center;
+  align-content: center;
 }
 .footer a{
   text-decoration: none;
+  font-size: 20px;
+  align-content: center;
 }
