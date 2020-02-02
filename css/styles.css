@@ -3,6 +3,14 @@
   font-weight: normal;
   font-size: 16px;
 }
+.recipie::before {
+ display: block;
+ content: " ";
+ margin-top: -100px;
+ height: 100px;
+ visibility: hidden;
+ pointer-events: none;
+}
 
 .navbar{
   position: fixed;
@@ -14,9 +22,11 @@
   padding: 50px;
 }
 .main p{
-  background-color: #99CCFF;
+  background-color: #AABBDD;
+  color: #f5f5f5;
   margin: 2%;
   padding: 1%;
+  text-align: center;
 }
 .main h1{
   background-color: #AABBDD;
@@ -52,17 +62,20 @@
     margin: 1% 5% 1% 5%;
 }
 /* Image Grid */
-.portfolio1{
+.portfolio{
   display: grid;
-  grid-template: auto auto auto auto auto / 1fr ;
+  grid-template: auto auto auto auto/ 1fr 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 0px;
 }
-.portfolio{
+.tophalf {
   display: grid;
-  grid-template: auto auto auto auto auto / 1fr 1fr;
+  grid-template: auto auto auto / 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 0px;
+}
+.tophalf img{
+  align: right;
 }
 
 .image img {
